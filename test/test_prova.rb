@@ -10,7 +10,7 @@ class TestProva < Minitest::Test
     assert "racecar".palindrome?
   end
   def upcase_palindrome
-    assert "RaceCar".palindrome?
+    assert "RaceCar!".palindrome?
   end
   def test_palindrome_with_puntuaction
     skip

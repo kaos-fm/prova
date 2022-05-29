@@ -9,6 +9,6 @@ class String
 
   private
   def processed_content
-    self.downcase
+    self
   end
 end
